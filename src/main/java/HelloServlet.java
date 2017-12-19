@@ -10,7 +10,7 @@ public class HelloServlet extends javax.servlet.http.HttpServlet {
             response.getWriter().println(new Date().toLocaleString());
             response.getHeaderNames();
             response.getStatus();
-
+response.getHeader("aa");
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
